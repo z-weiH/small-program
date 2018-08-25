@@ -8,6 +8,11 @@
     </block>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <text class="user-motto text-success">{{motto}}</text>
+  </view>
+  <view class="demo-box">
+    <button open-type='share'>分享</button>
+    <contact-button type="default-dark" size="20" session-from="weapp">客服</contact-button>
+    <slider value="{{demoValue}}" bindchange="slider4change" min="0" max="10" step='1' show-value="true" />
   </view>
 </view>

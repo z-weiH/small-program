@@ -8,3 +8,8 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+/* 通用样式 */
+.text-success{
+  color: #44B549;
+}
